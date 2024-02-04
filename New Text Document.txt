@@ -1,0 +1,88 @@
+ <!-- Projects section start -->
+    <section class="Projects" id="Projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-calculator"></i>
+                        <div class="text"><a href="https://www.youtube.com/playlist?list=PLhJXKv91epkbbFZ95jMtgpW9TX55KD3wp">Digital System Basic Tutorial</a></div>
+                        <p>From here we can learn pin diagram of basic gates and universal gates, circuit simplification and Parity bit generator & check and much more.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <div class="text"><a href="https://youtube.com/playlist?list=PLhJXKv91epkYBtb1Wu2ZaL_96yvmhPesJ&si=TdQVQ9kHoZ15CYYG">Codeforces Problem Solve</a></div>
+                        <p>Codeforces is one of the problem solving platforms. We can see and solve different types of problems in codeforces.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Apps Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+css code: 
+/* Projects section styling */
+
+.Projects,
+.teams {
+    color: #000000;
+    background: #ffffff;
+}
+
+.Projects .title::before,
+.teams .title::before {
+    background: #fff;
+}
+
+.Projects .title::after,
+.teams .title::after {
+    background: #111;
+    content: "what i provide";
+}
+
+.Projects .serv-content .card {
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Projects .serv-content .card:hover {
+    background: crimson;
+}
+
+.Projects .serv-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.Projects .serv-content .card:hover .box {
+    transform: scale(1.05);
+}
+
+.Projects .serv-content .card i {
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+
+.Projects .serv-content .card:hover i {
+    color: #fff;
+}
+
+.Projects .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
